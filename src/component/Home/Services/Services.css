@@ -1,0 +1,12 @@
+.card-body{
+    height: 500px;
+}
+.service-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+.card-body:hover{
+    background-color: #f9fdff;
+}

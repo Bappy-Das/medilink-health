@@ -1,0 +1,12 @@
+.slide-img{
+    height: 580px;
+    width: 100%
+}
+.caption{
+    right: 5%;
+    text-align:left;
+    color: black;
+    max-width: 400px;
+    padding:5px;
+    bottom: 130px;
+}
