@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Rihana Roy",
+        "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team33.png",
+        "expart": "Eye Care",
+        "schedule": [
+            {
+                "day": "Mon-Tues",
+                "time": "08.00-17.00"
+            },
+            {
+                "day": "Fri-Sat",
+                "time": "09.00-12.00"
+            },
+            {
+                "day": "Sun-Mon",
+                "time": "08.00-17.00"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Dr. Nadim Kamal",
+        "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team34.png",
+        "expart": "Gynecology",
+        "schedule": [
+            {
+                "day": "Mon-Tues",
+                "time": "08.00-17.00"
+            },
+            {
+                "day": "Fri-Sat",
+                "time": "09.00-12.00"
+            },
+            {
+                "day": "Sun-Mon",
+                "time": "08.00-17.00"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Dr. Zinia Zara",
+        "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team35.png",
+        "expart": "Cardiology",
+        "schedule": [
+            {
+                "day": "Mon-Tues",
+                "time": "08.00-17.00"
+            },
+            {
+                "day": "Fri-Sat",
+                "time": "09.00-12.00"
+            },
+            {
+                "day": "Sun-Mon",
+                "time": "08.00-17.00"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Dr. Steven Roy",
+        "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team36.png",
+        "expart": "Pediatrics",
+        "schedule": [
+            {
+                "day": "Mon-Tues",
+                "time": "08.00-17.00"
+            },
+            {
+                "day": "Fri-Sat",
+                "time": "09.00-12.00"
+            },
+            {
+                "day": "Sun-Mon",
+                "time": "08.00-17.00"
+            }
+        ]
+    }
+]

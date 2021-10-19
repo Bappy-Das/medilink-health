@@ -1,0 +1,13 @@
+.service-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* text-align: center; */
+}
+.card-body:hover{
+    background-color: #f9fdff;
+}
+.description-text{
+    text-align: justify;
+    text-justify: inter-word;
+}

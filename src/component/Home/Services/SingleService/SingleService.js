@@ -14,15 +14,16 @@ const SingleService = () => {
     console.log(singleData);
     return (
         <Container className=" p-5">
-            <h2>{singleData?.name}</h2>
-            <Row className="justify-content-center alig">
-                {/* <Card.Title>Special title treatment</Card.Title> */}
+
+            <Row className="justify-content-center align-items-center p-2">
+
                 <div className="col-md-6">
-                    <img className="img-fluid" src={singleData?.image} alt="" srcset="" />
+                    <img className="img-fluid" src={singleData?.imageFull} alt="" srcset="" />
                 </div>
                 <div className="col-md-6">
+                    <h2 className="mb-5">{singleData?.name}</h2>
                     <p className="description-text">{singleData?.description}</p>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">Book Appoinment</Button>
                 </div>
 
             </Row >

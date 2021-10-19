@@ -2,21 +2,23 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
+import './AllService.css'
+import { FaUserMd } from 'react-icons/fa';
 
 const AllService = (props) => {
-    const { name, id, description, image } = props.service
+    const { name, id, doctor, cardImage } = props.service
     return (
         <div>
-
-
             <Col className="">
-                <Card className="card-body rounded-3">
-                    <Card.Img variant="top" className="service-img mx-auto p-1" src={image} />
-                    <Card.Body>
-                        <Card.Title>{name}</Card.Title>
-                        <Card.Text className="description-text">
-                            {description.slice(0, 150)}...
-                        </Card.Text>
+                <Card className=" rounded-3 text-center">
+                    <Card.Img variant="top" className="img-fluid mx-auto p-1" src={cardImage} />
+                    <Card.Body className="mt-4">
+                        <h3>{name}</h3>
+                        <div className="d-flex align-items-center justify-content-center mt-4">
+                            <p><FaUserMd size={35} /></p>
+                            <h5 className="mx-2">{doctor}</h5>
+                            <h5>Specialist Doctors</h5>
+                        </div>
                     </Card.Body>
                     <hr />
                     <div className="card-foot">
@@ -25,9 +27,7 @@ const AllService = (props) => {
                 </Card>
             </Col>
 
-
-
-        </div>
+        </div >
     );
 };
 

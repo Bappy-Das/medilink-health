@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "name": "Dental Care",
+        "imageFull": "https://static.showit.co/1200/NVyu1HUlT1i7YcsOdIg2Sg/84619/fmc-dental-clinic-background.png",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department1.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "06",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Orthopedic",
+        "imageFull": "https://leverageedu.com/blog/wp-content/uploads/2019/12/Orthopedic-Doctor.jpg",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department2.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "08",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Eye Care",
+        "imageFull": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department21.jpg",
+        "cardImage": "https://images.squarespace-cdn.com/content/v1/5560ffe1e4b0653951c812db/1588538277895-NQPYS3T9I176CAHC99V9/unnamed.jpg?format=1500w",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "05",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Cardiology",
+        "imageFull": "https://health.clevelandclinic.org/wp-content/uploads/sites/3/2019/10/cardiacDocs-1125401691-770x553.jpg",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department4.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "04",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Gynecology",
+        "imageFull": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department28.jpg",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department5.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "06",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Hepatology",
+        "imageFull": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department23.jpg",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department6.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "07",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Pediatrics",
+        "imageFull": "https://www.prestigehomecareagency.net/wp-content/uploads/2021/03/The-Pros-of-Being-a-Pediatric-Home-Health-Nurse.jpg",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department7.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "08",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Medicne",
+        "imageFull": "https://www.doctorsnearby.net/wp-content/uploads/2018/12/Medicine-Specialists-in-Dhaka.jpg",
+        "cardImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/department/department8.jpg",
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders. Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery.Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones.",
+        "doctor": "06",
+        "services": [
+            "General Dentistry",
+            "Conservative & Endodontic Dentistry",
+            "Esthetic Dentistry",
+            "Prosthetic Dentistry"
+        ],
+        "pricingPlan": [
+            {
+                "name": "Dental Implant",
+                "price": 45
+            },
+            {
+                "name": "Another Major Feature",
+                "price": 35
+            },
+            {
+                "name": "Emergency Care",
+                "price": 35
+            },
+            {
+                "name": "Prescription Drugs",
+                "price": 45
+            }
+        ]
+    }
+]

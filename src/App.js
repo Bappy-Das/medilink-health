@@ -5,6 +5,9 @@ import Header from './component/Shared/Header/Header';
 import Home from './component/Home/Home/Home';
 import Footer from './component/Shared/Footer/Footer';
 import SingleService from './component/Home/Services/SingleService/SingleService';
+import AllService from './component/Home/AllService/AllService';
+import Services from './component/Home/Services/Services';
+import Specialist from './component/Home/Specialist/Specialist';
 
 
 
@@ -21,9 +24,14 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
+          <Route path="/allservices">
+            <Services></Services>
+          </Route>
+          <Route path="/doctor">
+            <Specialist></Specialist>
+          </Route>
           <Route path="/service/:serviceID">
             <SingleService></SingleService>
-
           </Route>
         </Switch>
         <Footer></Footer>

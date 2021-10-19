@@ -9,8 +9,8 @@ const Services = () => {
     const { services } = useService();
     // console.log(services)
     return (
-        <div>
-            <div className="p-5 mt-3">
+        <div id="allservices" className="my-5">
+            <div className="p-5">
                 <h1 className="text-center">Our Services</h1>
                 <hr className="w-25 mx-auto" />
             </div>
