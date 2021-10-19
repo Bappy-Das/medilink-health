@@ -10,3 +10,7 @@
 .card-body:hover{
     background-color: #f9fdff;
 }
+.description-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
