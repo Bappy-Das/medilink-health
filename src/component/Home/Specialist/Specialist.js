@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Row } from 'react-bootstrap';
 import './Specialist.css'
 import { FaCalendarAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const Specialist = () => {
@@ -38,7 +39,9 @@ const Specialist = () => {
 
 
                                 </Card.Body>
-                                <Button variant="primary">Make An Appoinment</Button>
+                                <div className="text-center my-3">
+                                    <Link to="/book"><Button variant="primary">Make An Appoinment</Button></Link>
+                                </div>
                             </Card>
                         </Col>
                     </div>)

@@ -16,7 +16,7 @@ const WellCome = () => {
                     <h2 className="my-3">Welcome To MediLink. Central Hospital</h2>
                     <h4>"To be a renowned organization at the leading edge of Medicine, providing quality healthcare to meet our nation's aspirations.</h4>
                     <p className="mt-3">The hospital is a showcase of synergy of medical technology and advances in ICT through paperless medical records.</p>
-                    <img className="img-fluid mt-2" src="https://www.radiustheme.com/demo/html/medilink/medilink/img/about/sign1.png" alt="" srcset="" />
+                    <img className="img-fluid mt-2" src="https://www.radiustheme.com/demo/html/medilink/medilink/img/about/sign1.png" alt="" srcSet="" />
                 </div>
                 <div className="col-md-4 text-white">
                     <div className="d-flex align-items-center justify-content-center my-2 p-3 rounded-3 bg-primary">

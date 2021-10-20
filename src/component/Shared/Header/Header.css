@@ -1,0 +1,11 @@
+.photo-img{
+    height: 50px;
+    width: 50px;
+}
+.collapse-text{
+    position: relative;
+    /* z-index: 10; */
+}
+.pointer {
+    cursor: pointer;
+}

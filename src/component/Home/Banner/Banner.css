@@ -10,3 +10,20 @@
     padding:5px;
     bottom: 130px;
 }
+
+@media screen and (max-width: 480px) {
+    .caption{
+        right: 5%;
+    text-align:left;
+    color: black;
+    
+    padding:5px;
+    bottom: 0px;
+    }
+    .caption h3{
+        font-size: 15px;
+    }
+    .caption p{
+        font-size: 10px;
+    }
+  }
