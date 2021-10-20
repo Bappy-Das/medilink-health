@@ -6,7 +6,6 @@ import Home from './component/Home/Home/Home';
 import Footer from './component/Shared/Footer/Footer';
 import SingleService from './component/Home/Services/SingleService/SingleService';
 import Services from './component/Home/Services/Services';
-import Specialist from './component/Home/Specialist/Specialist';
 import Login from './component/Login/Login';
 import Register from './component/Register/Register';
 import ConfirmAppoinment from './component/Shared/ConfirmAppoinment/ConfirmAppoinment';

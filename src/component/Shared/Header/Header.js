@@ -35,28 +35,35 @@ const Header = () => {
                             <Nav.Link as={Link} to="/doctor">Doctor</Nav.Link>
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
-                            {user?.displayName ?
-                                <div className="pointer ms-2" ref={ref}>
-                                    <span onClick={handleClick}>
-                                        {/* <img
-                                        className="photo-img rounded-circle"
-                                        src={user.displayName}
-                                        alt="" srcSet="" /> */}
-                                        <p className="text-light mt-2">{user.displayName}</p>
-                                    </span>
-                                    <Overlay
-                                        show={show}
-                                        target={target}
-                                        placement="bottom"
-                                        container={ref}
-                                        containerPadding={20}
-                                    >
-                                        <Popover id="popover-contained">
-                                            {/* <Popover.Header as="h3">{user?.displayName}</Popover.Header> */}
-                                            <p className="font-weight-bold text-center p-2 mt-2" onClick={logOut}>Log Out <FaArrowRight /></p>
-                                        </Popover>
-                                    </Overlay>
+                            {user?.email ?
+                                <div>
+                                    {user.displayName ?
+                                        <p className="font-weight-bold pointer ms-2 mt-2 text-light text-center">{user.displayName}</p>
+                                        :
+                                        <p className="font-weight-bold pointer ms-2 mt-2 text-light text-center">{user.email}</p>}
+                                    <p className="font-weight-bold pointer ms-2 mt-2 text-light text-center" onClick={logOut}>Log Out <FaArrowRight /></p>
                                 </div>
+                                // <div className="pointer ms-2" ref={ref}>
+                                //     <span onClick={handleClick}>
+                                //         {/* <img
+                                //         className="photo-img rounded-circle"
+                                //         src={user.displayName}
+                                //         alt="" srcSet="" /> */}
+                                //         <p className="text-light mt-2">{user.displayName}</p>
+                                //     </span>
+                                //     <Overlay
+                                //         show={show}
+                                //         target={target}
+                                //         placement="bottom"
+                                //         container={ref}
+                                //         containerPadding={20}
+                                //     >
+                                //         <Popover id="popover-contained">
+                                //             {/* <Popover.Header as="h3">{user?.displayName}</Popover.Header> */}
+                                //             <p className="font-weight-bold text-center p-2 mt-2" onClick={logOut}>Log Out <FaArrowRight /></p>
+                                //         </Popover>
+                                //     </Overlay>
+                                // </div>
                                 :
                                 <Link to="/login"><Button variant="primary">Log In <FaArrowRight /></Button></Link>}
 

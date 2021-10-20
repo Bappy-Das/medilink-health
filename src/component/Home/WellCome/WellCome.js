@@ -3,7 +3,6 @@ import { Container, Row } from 'react-bootstrap';
 import { FaCalendarAlt, FaUserCircle, FaPhoneAlt } from 'react-icons/fa';
 import { BsArrowRightCircle } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
-import { Link } from 'react-router-dom';
 
 
 const WellCome = () => {
