@@ -9,8 +9,8 @@
 
 <p>Why Us</p>
 ----------------------------------
-<strong>➜ Qualified Staff of Doctors</strong>
-<strong>➜ Feel like you are at Home Services</strong>
-<strong>➜ 24x7 Emergency Services</strong>
-<strong>➜ Easy and Affordable Billing</strong>
-<strong>➜ Best Laboratory Medical Center</strong>
+<h2><strong>➜ Qualified Staff of Doctors</strong></h2>
+<h2><strong>➜ Feel like you are at Home Services</strong></h2>
+<h2><strong>➜ 24x7 Emergency Services</strong></h2>
+<h2><strong>➜ Easy and Affordable Billing</strong></h2>
+<h2><strong>➜ Best Laboratory Medical Center</strong></h2>
