@@ -6,11 +6,11 @@ import { FcGoogle } from "react-icons/fc";
 
 import './Login.css'
 
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 
 const Login = () => {
-    const { singInUsingGoogle, signInWithFacebook } = useFirebase();
+    const { singInUsingGoogle, signInWithFacebook } = useAuth();
 
     return (
         <Container className="w-25 my-4">

@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "drid": 1,
         "name": "Dr. Rihana Roy",
         "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team33.png",
         "expart": "Eye Care",
@@ -20,7 +20,7 @@
         ]
     },
     {
-        "id": 2,
+        "drid": 2,
         "name": "Dr. Nadim Kamal",
         "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team34.png",
         "expart": "Gynecology",
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "id": 3,
+        "drid": 3,
         "name": "Dr. Zinia Zara",
         "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team35.png",
         "expart": "Cardiology",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "id": 4,
+        "drid": 4,
         "name": "Dr. Steven Roy",
         "drImage": "https://www.radiustheme.com/demo/html/medilink/medilink/img/team/team36.png",
         "expart": "Pediatrics",

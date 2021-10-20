@@ -1,56 +1,44 @@
-import React, { useEffect, useState } from 'react';
-import { Button, Card, Col, Row } from 'react-bootstrap';
+import React from 'react';
+import { Button, Card, Col } from 'react-bootstrap';
 import './Specialist.css'
 import { FaCalendarAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+// import useDoctor from '../../../hooks/useDoctor';
 
 
-const Specialist = () => {
-    const [doctor, setDoctor] = useState([]);
-    useEffect(() => {
-        fetch('/doctorData.json')
-            .then(res => res.json())
-            .then(data => setDoctor(data))
-    }, [])
+const Specialist = (props) => {
+    const { drid, name, schedule, expart, drImage } = props.data;
+    console.log(props.data)
     return (
-        <div className="m-4 p-3">
-            <div className="text-center">
-                <h2>Specialist Doctors</h2>
-                <p>Experienced Doctor</p>
-                <hr className="w-25 mx-auto" />
-            </div>
-            <Row xs={1} md={4} className="g-4">
-                {
-                    doctor.map(dr => <div>
-                        <Col>
-                            <Card className="my-5">
-                                <Card.Img className="rounded-circle dr-img img-fluid" variant="top" src={dr.drImage} />
-                                <Card.Body>
-                                    <Card.Title>{dr.name}</Card.Title>
-                                    <p>{dr.expart}</p>
-                                    <hr />
-                                    {
-                                        dr.schedule.map(data => <tr
-                                            className="d-flex align-items-center justify-content-between">
-                                            <td><FaCalendarAlt /> {data.day}</td>
-                                            <td>{data.time}</td>
-                                        </tr>)
-                                    }
+        <div>
+            <Col className="my-5">
+                <Card className="m-1">
+                    <div className="p-4">
+                        <Card.Img className="rounded-circle dr-img img-fluid" variant="top" src={drImage} />
+                    </div>
+                    <Card.Body>
+                        <Card.Title>{name}</Card.Title>
+                        <p>{expart}</p>
+                        <hr />
+                        {
+                            schedule.map(data => <tr
+                                className="d-flex align-items-center justify-content-between">
+                                <td><FaCalendarAlt /> {data.day}</td>
+                                <td>{data.time}</td>
+                            </tr>)
+                        }
 
 
-                                </Card.Body>
-                                <div className="text-center my-3">
-                                    <Link to="/book"><Button variant="primary">Make An Appoinment</Button></Link>
-                                </div>
-                            </Card>
-                        </Col>
-                    </div>)
-                }
-
-
-            </Row>
+                    </Card.Body>
+                    <div className="text-center my-3">
+                        <Link to={`./doctorinfo/${drid}`}><Button variant="primary">More Details About Doctor</Button></Link>
+                    </div>
+                </Card>
+            </Col>
         </div>
     );
 };
 
 export default Specialist;
+
+

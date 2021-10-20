@@ -4,14 +4,14 @@ import logo from '../../../images/logo (2).png'
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './Header.css'
-import useFirebase from '../../../hooks/useFirebase';
+import useAuth from '../../../hooks/useAuth';
 
 
 
 
 
 const Header = () => {
-    const { user, logOut } = useFirebase();
+    const { user, logOut } = useAuth();
     console.log(user)
     const [show, setShow] = useState(false);
     const [target, setTarget] = useState(null);
@@ -30,11 +30,11 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto fw-bold text-dark">
-                            <Nav.Link as={Link} to="/home#home">Home</Nav.Link>
-                            <Nav.Link as={Link} to="/allservices#allservices">Services</Nav.Link>
-                            <Nav.Link as={Link} to="/doctor#doctor">Doctor</Nav.Link>
-                            <Nav.Link as={Link} to="/news">News</Nav.Link>
+                            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/allservices">Services</Nav.Link>
+                            <Nav.Link as={Link} to="/doctor">Doctor</Nav.Link>
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                             {user?.displayName ?
                                 <div className="pointer" ref={ref}>
                                     <span onClick={handleClick}><img

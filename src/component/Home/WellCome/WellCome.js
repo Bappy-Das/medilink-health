@@ -3,6 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import { FaCalendarAlt, FaUserCircle, FaPhoneAlt } from 'react-icons/fa';
 import { BsArrowRightCircle } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 const WellCome = () => {
@@ -19,11 +20,13 @@ const WellCome = () => {
                     <img className="img-fluid mt-2" src="https://www.radiustheme.com/demo/html/medilink/medilink/img/about/sign1.png" alt="" srcSet="" />
                 </div>
                 <div className="col-md-4 text-white">
+
                     <div className="d-flex align-items-center justify-content-center my-2 p-3 rounded-3 bg-primary">
                         <h5><FaCalendarAlt size={25} /></h5>
                         <h5 className="mx-2">Request Appoinment</h5>
                         <h5><BsArrowRightCircle size={25} /></h5>
                     </div>
+
                     <div className="d-flex align-items-center justify-content-center my-2 p-3 rounded-3 bg-primary">
                         <h5><FaUserCircle size={25} /></h5>
                         <h5 className="mx-2">Find Doctor</h5>
