@@ -29,18 +29,21 @@ const Header = () => {
                     <Link to="/home"><Navbar.Brand><img className="img-fluid" src={logo} alt="" srcSet="" /></Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ms-auto fw-bold text-dark">
+                        <Nav className="ms-auto fw-bold">
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
                             <Nav.Link as={Link} to="/allservices">Services</Nav.Link>
                             <Nav.Link as={Link} to="/doctor">Doctor</Nav.Link>
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
                             <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                             {user?.displayName ?
-                                <div className="pointer" ref={ref}>
-                                    <span onClick={handleClick}><img
+                                <div className="pointer ms-2" ref={ref}>
+                                    <span onClick={handleClick}>
+                                        {/* <img
                                         className="photo-img rounded-circle"
-                                        src={user.photoURL}
-                                        alt="" srcSet="" /></span>
+                                        src={user.displayName}
+                                        alt="" srcSet="" /> */}
+                                        <p className="text-light mt-2">{user.displayName}</p>
+                                    </span>
                                     <Overlay
                                         show={show}
                                         target={target}
@@ -49,8 +52,8 @@ const Header = () => {
                                         containerPadding={20}
                                     >
                                         <Popover id="popover-contained">
-                                            <Popover.Header as="h3">{user?.displayName}</Popover.Header>
-                                            <p className="font-weight-bold text-center mt-2" onClick={logOut}>Log Out <FaArrowRight /></p>
+                                            {/* <Popover.Header as="h3">{user?.displayName}</Popover.Header> */}
+                                            <p className="font-weight-bold text-center p-2 mt-2" onClick={logOut}>Log Out <FaArrowRight /></p>
                                         </Popover>
                                     </Overlay>
                                 </div>
