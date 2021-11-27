@@ -9,8 +9,10 @@
 
 <p>Why Us</p>
 ----------------------------------
-<h2><strong>➜ Qualified Staff of Doctors</strong></h2>
-<h2><strong>➜ Feel like you are at Home Services</strong></h2>
-<h2><strong>➜ 24x7 Emergency Services</strong></h2>
-<h2><strong>➜ Easy and Affordable Billing</strong></h2>
-<h2><strong>➜ Best Laboratory Medical Center</strong></h2>
+<h3><strong>➜	Medilink Provided a Variety of Medical Services Such as Child-Care, Eye-Care, Cardiology & Hepatology.</strong></h3>
+<h3><strong>➜ The Specialized Doctor Was Displayed On the Website, And The User May Make an Appointment with Their Preferred Doctor.</strong></h3>
+<h3><strong>➜ Qualified Staff of Doctors</strong></h3>
+<h3><strong>➜ Feel like you are at Home Services</strong></h3>
+<h3><strong>➜ 24x7 Emergency Services</strong></h3>
+<h3><strong>➜ Easy and Affordable Billing</strong></h3>
+<h3><strong>➜ Best Laboratory Medical Center</strong></h3>
